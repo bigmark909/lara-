@@ -1,0 +1,17 @@
+{
+  "name": "lara-and-sons-diffs",
+  "version": "1.0.0",
+  "description": "Lara & Sons Differentials & 4x4 - Professional differential repair and 4x4 service",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["differential", "4x4", "automotive", "repair"],
+  "author": "Lara & Sons",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
