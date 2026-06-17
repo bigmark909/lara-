@@ -22,7 +22,7 @@ class ConfettiEffect {
 
   fire(options = {}) {
     const count = options.count || 80;
-    const colors = options.colors || ['#2563EB', '#1B2D54', '#DC2626', '#F59E0B', '#10B981', '#ffffff'];
+    const colors = options.colors || ['#60A5FA', '#1B2D54', '#DC2626', '#F59E0B', '#10B981', '#ffffff'];
     const x = options.x || this.canvas.width / 2;
     const y = options.y || this.canvas.height / 2;
 
@@ -319,7 +319,7 @@ if (backToTopBtn) {
 // ===== Hero Confetti on Load =====
 window.addEventListener('load', () => {
   setTimeout(() => {
-    confetti.fire({ count: 50, colors: ['#2563EB', '#1B2D54', '#ffffff', '#DC2626'] });
+    confetti.fire({ count: 50, colors: ['#60A5FA', '#1B2D54', '#ffffff', '#DC2626'] });
   }, 1000);
 });
 
